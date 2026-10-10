@@ -1,0 +1,32 @@
+# Python cache and local tooling output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local runtime state
+desktop_pet_data.json
+desktop_pet_layout.json
+work/desktop_pet_data.json
+work/desktop_pet_layout.json
+发布版/desktop_pet_data.json
+发布版/desktop_pet_layout.json
+
+# Historical PyInstaller/build output
+build_*/
+dist/
+*.spec
+
+# Local reference and source materials (kept outside the shared repository)
+世界观/
+源文件/
+work/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+
